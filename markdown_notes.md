@@ -1,8 +1,8 @@
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to github markdown notes from which all the examples below came!](https://guides.github.com/features/mastering-markdown/)
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# This is an h1 tag
+## This is an h2 tag
+###### This is an h6 tag
 
 *This text will be italic*
 _This will also be italic_
@@ -60,11 +60,13 @@ function fancyAlert(arg) {
 
 ### Or indent by 4 spaces
 
+```python
     function fancyAlert(arg) {
       if(arg) {
         $.facebox({div:'#foo'})
       }
     }
+```
 
 # Task Lists
 
